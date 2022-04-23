@@ -107,7 +107,6 @@ Notes:
   * V praxi se přechází na novější schéma ECDH, které
     * je rychlejší
     * ma menší klíče
-    * nabízí srovnatelnou bezpečnost, ale je nutné si dát pozor na výběr křivek a jejich parametrů
   * TLS 1.2 nabízí jediné schéma bez DH, v TLS 1.3 jsou všechny schémata s DH
   * Pokud TLS používá DH schéma není možné provoz dešifrovat pomocí privátního klíče: https://www.root.cz/clanky/desifrujeme-https-pomoci-nastroje-wireshark/ 
 
@@ -136,7 +135,7 @@ Notes:
   * nutný zabezpečený kanál pro přenos klíčů, možná kompromitace
   * vyšší výpočetní náročnost
   * délka klíče (RSA)
-* příklady: RSA, ElGamal, ECC algoritmy.
+* příklady: RSA, ElGamal, ECC algoritmy (ECDSA).
 
 </div>
 
